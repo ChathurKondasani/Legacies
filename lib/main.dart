@@ -56,77 +56,7 @@ class _NavState extends State<Nav> {
         },
       ),
       body: Painter(),
-      /*body: Container(
-        decoration: BoxDecoration(
-          color: Colors.blueGrey[50],
-        ),
-        child: Column(
-          children: [
-            Container(
-              height: 200,
-              width: double.infinity,
-             color: Colors.blueAccent,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    SizedBox(
-                      height: 50,
-                    ),
-                    Icon(Icons.arrow_back_outlined,
-                    color: Colors.white,
-                    
-                    ),
-                    SizedBox(
-                      height: 10
-                    ),
-                    Text(" Event",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight : FontWeight.bold,
-                      color: Colors.white
-                    ),
-                    ),
-                  SizedBox(
-
-                    height: 20,
-                  ),
-                    Center(
-                      child: Container(
-                        
-                        height: 100,
-                        width: 400,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(10),
-
-                        ),
-                      ),
-                    
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                     Center(
-                      child: Container(
-                        
-                        height: 100,
-                        width: 400,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(10),
-
-                        ),
-                      ),
-                    
-                    ),
-                  ],
-                ),
-              ),
-            
-          ],
-        ),
-      ),
-      */
+      
     );
   }
 }
